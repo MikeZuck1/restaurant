@@ -9,7 +9,7 @@ export default function History() {
             <h1>Photo</h1>
           </div>
           <div className="flex flex-col items-center justify-center bg-amber-600 px-[10rem] w-[31rem]">
-            <h1 className="float-left">Notre Philosophie</h1>
+            <h1 className="font-bold">Notre Philosophie</h1>
             <p className="mt-[2rem] bg-amber-100 w-[30rem] text-sm/7">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />{" "}
               Fugit possimus molestiae autem consequuntur culpa quos aliquid
