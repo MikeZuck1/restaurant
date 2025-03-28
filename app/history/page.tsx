@@ -10,7 +10,9 @@ export default function History() {
             <Image src={Chief} alt="" />
           </div>
           <div className="flex flex-col items-center justify-center px-[10rem] w-[31rem]">
-            <h1 className="font-bold text-red-900">Notre Philosophie</h1>
+            <h1 className="font-bold capitalize text-red-900">
+              notre philosophie
+            </h1>
             <p className="mt-[2rem] w-[30rem] text-sm/7">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />{" "}
               Fugit possimus molestiae autem consequuntur culpa quos aliquid
