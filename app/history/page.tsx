@@ -1,16 +1,17 @@
-// import Image from "next/images";
+import Image from "next/image";
+import Chief from "@/public/images/chief_kitchen.png";
 
 export default function History() {
   return (
     <>
       <section className="mt-[3rem]">
-        <div className="flex flex-row justify-between bg-blue-600 py-[2rem] px-[21rem] mx-auto">
-          <div className="bg-amber-600 w-[15rem] text-center flex items-center justify-around">
-            <h1>Photo</h1>
+        <div className="flex flex-row justify-between py-[2rem] px-[21rem] mx-auto">
+          <div className="w-[15rem] text-center flex items-center justify-around">
+            <Image src={Chief} alt="" />
           </div>
-          <div className="flex flex-col items-center justify-center bg-amber-600 px-[10rem] w-[31rem]">
-            <h1 className="font-bold">Notre Philosophie</h1>
-            <p className="mt-[2rem] bg-amber-100 w-[30rem] text-sm/7">
+          <div className="flex flex-col items-center justify-center px-[10rem] w-[31rem]">
+            <h1 className="font-bold text-red-900">Notre Philosophie</h1>
+            <p className="mt-[2rem] w-[30rem] text-sm/7">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />{" "}
               Fugit possimus molestiae autem consequuntur culpa quos aliquid
               <br /> <br /> Lorem ipsum dolor sit amet, consectetur adipisicing
