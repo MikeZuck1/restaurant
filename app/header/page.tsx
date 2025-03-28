@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="bg-red-950">
       <div className="flex justify-between px-[2rem] py-[2rem]">
-        {/* NAME AND LOGO  */}
+        {/* NAME AND LOGO  */} 
         <div className="flex gap-[.9rem] text-[#fff]">
           <div className="">Logo</div>
           <h1 className="">Restaurant le CSS</h1>
