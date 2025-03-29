@@ -5,7 +5,7 @@ import Map from "./map/page";
 import Salade from "./salade/page";
 import Informations from "./informations/page"; 
 import Contact from "./contact/page"; 
-// import Footer from "./footer/page"; 
+import Footer from "./footer/page";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <Salade />
       <Informations />
       <Contact />
-      {/* <Footer />  */}
+      <Footer />
     </>
   );
 }

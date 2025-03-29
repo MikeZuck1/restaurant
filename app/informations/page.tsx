@@ -11,7 +11,7 @@ export default function Informations() {
   };
 
   return (
-    <div className="h-[30rem]">
+    <div className="h-[25rem]">
       <h1 className="mt-[2rem] text-center text-3xl font-medium capitalize text-red-900">
         infos pratiques
       </h1>

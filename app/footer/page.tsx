@@ -1,3 +1,13 @@
 export default function Footer() {
-  return <h1>Footer</h1>;
+  const firstSentence = "Resautrant le CSS";
+  const secondSentence = "Tous droits réservés";
+  
+  return (
+    <div className="flex justify-center items-center h-[5rem] bg-red-950">
+      <p className="text-[#fff]">
+        <span className="">&copy;</span> 2020 - {firstSentence} -{" "}
+        {secondSentence}
+      </p>
+    </div>
+  );
 }
