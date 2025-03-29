@@ -1,3 +1,4 @@
+
 export default function Informations() {
   const schedule = {
     firstTitle: "horaires d'ouverture",
@@ -10,13 +11,13 @@ export default function Informations() {
   };
 
   return (
-    <div className="bg-amber-200 h-[40rem]">
+    <div className="h-[30rem]">
       <h1 className="mt-[2rem] text-center text-3xl font-medium capitalize text-red-900">
         infos pratiques
       </h1>
       <div className="flex flex-row justify-around px-[15rem]">
-        <div className="">
-          <div className="bg-blue-400 text-sm mt-[3rem] h-[20rem] w-[25rem]">
+        <div>
+          <div className="text-sm mt-[3rem] h-[20rem] w-[25rem]">
             <h3 className="font-bold">{schedule.firstTitle}</h3>
             <hr className="my-6 border border-red-900 w-1/6" />
             <p className="my-7">{schedule.week}</p>
@@ -25,7 +26,7 @@ export default function Informations() {
           </div>
         </div>
         <div>
-          <div className="bg-blue-400 text-sm mt-[3rem] h-[30rem] w-[25rem]">
+          <div className="text-sm mt-[3rem] h-[30rem] w-[25rem]">
             <h3 className="font-bold">{schedule.secondTitle} :</h3>
             <hr className="my-6 border border-red-900 w-1/6" />
             <p className="my-7">{schedule.adress}</p>
