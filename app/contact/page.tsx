@@ -26,7 +26,9 @@ export default function Contact() {
           <label htmlFor="">{obj.message} :</label>
           <Textarea />
           <div className="flex justify-center mt-[1rem]">
-            <Button className="bg-red-950 cursor-pointer">Envoyer</Button>
+            <Button className="bg-red-950 cursor-pointer px-[2rem]">
+              Envoyer
+            </Button>
           </div>
         </form>
       </div>
